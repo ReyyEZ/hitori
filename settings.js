@@ -11,7 +11,7 @@ const chalk = require('chalk');
 
 global.owner = ['087760563021'] //['628','628'] 2 owner atau lebih
 global.author = 'ReyyzZ'
-global.botname = 'ReyyzZ Bot'
+global.botname = 'Hitori Bot'
 global.packname = 'Bot WhatsApp'
 global.listprefix = ['+','!','.']
 
@@ -36,9 +36,9 @@ global.fake = {
 }
 
 global.my = {
-	yt: 'https://youtube.com/@sword2god?si=hGV0O1IAFlCEtlZq',
-	gh: 'https://github.com/ReyyEZ',
-	gc: 'https://whatsapp.com/channel/0029VbBCACX4NVilOI7RmZ2J',
+	yt: 'https://youtube.com/c/Nazedev',
+	gh: 'https://github.com/nazedev',
+	gc: 'https://chat.whatsapp.com/B5qJIwZHm4VEYZJQE6iMwy',
 	ch: '120363250409960161@newsletter',
 }
 
@@ -90,4 +90,3 @@ fs.watchFile(file, () => {
 	delete require.cache[file]
 	require(file)
 });
-
