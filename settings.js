@@ -36,9 +36,9 @@ global.fake = {
 }
 
 global.my = {
-	yt: 'https://youtube.com/c/Nazedev',
-	gh: 'https://github.com/nazedev',
-	gc: 'https://chat.whatsapp.com/B5qJIwZHm4VEYZJQE6iMwy',
+	yt: 'https://youtube.com/@sword2god?si=FJAjbsHJWcgOhIm-',
+	gh: 'https://github.com/ReyyEZ',
+	gc: 'https://whatsapp.com/channel/0029VbBCACX4NVilOI7RmZ2J',
 	ch: '120363250409960161@newsletter',
 }
 
@@ -90,3 +90,4 @@ fs.watchFile(file, () => {
 	delete require.cache[file]
 	require(file)
 });
+
